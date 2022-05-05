@@ -21,8 +21,7 @@ bool primo(int n){
 }
 	int main(){
 		int n;
-		cout<<"¿Hasta que numero primo desea buscar? "<<endl;
-		cin>>n;
+		n=50;
 		
 		for(int i = 1 ; i <=n ; i++){
 			if(primo(i)) cout<<i<<endl;
